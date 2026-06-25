@@ -1,0 +1,20 @@
+{
+  "name": "lukas-kicktipp-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "assemble": "node assemble.mjs",
+    "start": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.52.0",
+    "@workspace/integrations-gemini-ai": "file:./integrations-gemini-ai",
+    "axios": "^1.18.0",
+    "cheerio": "^1.2.0",
+    "express": "^5.2.1",
+    "pg": "^8.20.0",
+    "playwright": "^1.61.0",
+    "tsx": "^4.21.0"
+  }
+}
